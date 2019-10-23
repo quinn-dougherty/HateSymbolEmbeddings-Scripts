@@ -1,0 +1,7 @@
+version: "3"
+services:
+  scripts:
+    build: ./scripts/
+    volumes:
+      - .:/home
+
